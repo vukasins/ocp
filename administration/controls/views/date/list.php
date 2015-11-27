@@ -1,0 +1,1 @@
+<span class = "iden-nowrap"><?=date('Y-m-d', strtotime($value));?></span>

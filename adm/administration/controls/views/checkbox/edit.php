@@ -1,0 +1,1 @@
+<input type="checkbox" id="<?=$field->field_name?>" class="" name="<?=$field->field_name?>" value="1" <?=(intval($value) == 1 ? 'checked="checked"' : '')?> tabindex="<?=$index?>" /> <label for="<?=$field->field_name?>"> </label>

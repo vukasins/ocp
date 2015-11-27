@@ -1,0 +1,133 @@
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:before,
+.within:before,
+.clearfix:after,
+.within:after
+ {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after, .within:after {
+    clear: both;
+}
+
+.clearfix, .within {
+    *zoom: 1;
+}
+
+input, textarea {
+outline:none;
+}
+
+/*block styles*/
+
+.block {display: inline; clear:both;}
+.block:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+
+/* Hides from IE-mac \*/
+* html .block {height: 1%;}
+.block {display: block;}
+/* End hide from IE-mac */
+
+.optimize {display: table;}
+.left {float: left;}
+.right {float: right;}
+
+/*--- Reset ---*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+}
+
+/*--- Links ---*/
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a img {	
+	border: none;
+}
+a, a:active, a:focus {
+	outline: none;
+}
+
+/*-------------------------------------------    
+
+    General Selectors (Typo: 6 7 8 9 10 11 12 14 18 21 24 36 48)
+
+-------------------------------------------*/
+
+html,body {margin:0;padding:0}
+
+* {
+	background-repeat: no-repeat;
+}
+
+body {
+
+}
+p, ul, ol, dl { 
+	margin-bottom: 15px;
+}
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+
+label {
+	line-height:15px;
+	vertical-align:middle;
+}
+input {
+	line-height:15px;
+	vertical-align:middle;
+}
+table {	
+	border-spacing: 0; 
+	border-collapse: collapse;
+	/* tables still need 'cellspacing="0"' in the markup */
+}
+
+	p img, span img, table img {
+	display: inline;
+}
+
+.alignLeft {
+	text-align: left;
+}
+.alignRight {
+	text-align: right;
+}
+.clear {
+	clear: both;
+	line-height:0;
+	height:0;
+	font-size:0;
+	margin:0;
+	padding:0
+}
+
+ul, ol {
+	margin-left: 2em;
+}
+select, option, input, textarea {
+	color: #000;
+	font-size: 11px;
+}

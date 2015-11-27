@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('../fonts/Proxima Nova-Bold-webfont.eot');
+    src: url('../fonts/Proxima Nova-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Proxima Nova-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/Proxima Nova-Bold-webfont.woff') format('woff'),
+         url('../fonts/Proxima Nova-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Proxima Nova-Bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('../fonts/Proxima Nova-Light-webfont.eot');
+    src: url('../fonts/Proxima Nova-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Proxima Nova-Light-webfont.woff2') format('woff2'),
+         url('../fonts/Proxima Nova-Light-webfont.woff') format('woff'),
+         url('../fonts/Proxima Nova-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Proxima Nova-Light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/Proxima Nova-Regular-webfont.eot');
+    src: url('../fonts/Proxima Nova-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Proxima Nova-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Proxima Nova-Regular-webfont.woff') format('woff'),
+         url('../fonts/Proxima Nova-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Proxima Nova-Regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

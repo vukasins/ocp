@@ -1,0 +1,186 @@
+html,body {
+	-ms-overflow-x: hidden !important;
+	overflow-x: hidden !important;
+}
+.slick-prev:after, .slick-next:after{ display:none;}
+
+.within {width: auto !important;}	
+
+.navBox { display:none;}
+
+.mapSearch input[type="text"] { width:100%}
+
+.map-form .mapLegend .checkBox { margin-right:0;}
+.combinedBox .inst-map.bottom p {padding: 17px 0 0 10px;}
+
+.footerMenu .navHolder { width:145px;}
+
+.findBox .within { padding:0;}
+.findHolder { position:relative; top:0;}
+.findHolder.advanced { top:0}
+
+.combinedBox .within { margin-top:20px;}
+.formBox { margin-bottom:15px;}
+.find-form .styled-select, .find-form .styled-select select { width:100%}
+
+.find-form button { margin-top:15px;}
+.find-form.advanced button { margin-top:15px;}
+.slider .within .capiton { right:48px; top: 50%; transition:all 200ms linear;}
+.slider .within .capiton { width:100%; right:0; left:48px;}
+
+.slider .capiton .title { font-size:24px;}
+.slider .capiton ul li {font-size:16px;}
+
+.coverPhotoBox .within {}
+
+.teaseBox { padding-left:0;}
+
+/* will be red only in google chrome */
+#test1{color:green;}
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		.find-form .styled-select, .find-form .styled-select select { width:103%}
+}
+
+@media screen and (max-width: 992px) {
+	img {
+		max-width: 100%;
+		height: auto;
+		width: auto\9; /* ie8 */
+	}
+	
+	.map-form .mapLegend .checkBox { margin-right:30px;}
+	.combinedBox .inst-map.bottom p {padding: 17px 15px 0 15px;}
+	
+	.min-h { height:auto;}
+	
+	.slider .within {width: 100% !important; position: static;}
+	
+	
+	.primNav { display: none;}
+	
+	.topSearch { margin:0;}
+	
+	.recommendBox .bannerHolder, .recommendBox .imgHolder { display:table}
+	.recommendBox .bannerHolder { margin-bottom:20px; margin-left:10px; margin-right:10px;}
+	.recommendBox .bannerHolder .leadHolder { display: table-cell; vertical-align: middle;}
+	
+	.recommendHolder img { float:right;}
+	
+	.footerMenu { display:none;}
+	.footerTop .logoHolder { float:none; text-align:center;}
+	
+	.topbarBox { height:auto;}
+	
+	.topbarBox .navHolder { display:none;}
+	
+	.moreHolder {
+ 		display: table;
+		width: 100%;
+	}
+	.product .topbarBox { width:auto; height:auto;}
+	.leadBox { position: relative;}
+	.leadBox h1 { font-size:22px; position:relative; top:auto;}
+	.product .leadBox .prodHolder{ 
+		bottom: auto;
+		display: table;
+		position: relative;
+		right: auto;
+		text-align: center;
+		width: 100%;
+	}
+	.slick-prev, .slick-next { display:none !important;}
+	
+	.slider .within .capiton {  top: 0;}
+	
+	.teaseBox .btn {margin-bottom:10px;}
+	.teaseSection .within { padding:0}
+	
+	.searchLocationBox .mapLegend { float:none; width:100%; margin-top:30px; text-align: center;}
+	#test1{color:green;}
+	
+}
+
+@media screen and (max-width: 860px) {
+	.logoHolder { margin-top:10px;}
+	.topSoc {
+		bottom: 40px;
+		position: absolute;
+		right: 0;
+		top:auto;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+	.combinedBox .weater-currency > div:first-child { padding-right: 0;	margin-bottom:15px;}
+	.combinedBox .weater-currency > div:last-child { padding-left: 0;}
+	.listBox { display:block;}
+	.listBox .imgHolder { margin-bottom:20px;}
+	.galleryHolder.row { margin:0 !important}
+	.findHolder  .mag > span { display:none;}
+	
+}
+
+@media screen and (max-width: 680px) {
+	.subHolder { float:none;}
+	.topSearch .search { float:none; width:100%;}
+	.topSearch { width:100%;}
+	.topSearch .search input[type="text"] {width: 100%;}
+	.searchLocationBox .menu-serach ul li a{ padding:0 5px; font-size:16px}
+	/* will be red only in google chrome */
+	#test1{color:green;}
+		@media screen and (-webkit-min-device-pixel-ratio:0) {
+			.find-form .styled-select, .find-form .styled-select select { width:104%}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.logoHolder { margin-top:4px}
+	
+	
+	.mapSearch input[type="text"] { width:100%}
+	.combinedBox .inst-map.bottom { height:auto; display:table; width:100%; padding:15px; text-align:center}
+	.map-form .mapLegend .checkBox { background:none !important; margin:0; padding:0; text-align:left;}
+	.combinedBox .inst-map .bc{ display:table; width:100%}
+	
+	
+	.copyrightHolder { text-align:center; float:none;}
+	.subMenu { display:none;}
+	
+	.headerFind h1 { font-size:24px}
+	
+	.slider .capiton .title { font-size:18px;}
+	.slider .capiton ul li {font-size:12px;}
+	.slider .capiton p.lead {font-size:12px;}
+	
+	.searchLocationBox .mapLegend .bc{ display: table; float: none; text-align: left;}
+}
+
+
+@media screen and (max-width: 480px) {
+	.slider .within .capiton { width:auto; transition:all 200ms linear; right: auto; left:0}
+	.topNav a{ margin-right:8px;}
+	
+	.bannerHolder { margin:0 auto}
+	.bannerHolder .leadHolder { display:table; width:320px; vertical-align:auto}
+	
+	
+	.map-form .mapSearch { margin: 5px 15px 0 0;}
+	.mapSearch button[type="submit"] { right:10px}
+	
+	.topSoc p{ display:none}
+	
+	.topNav { margin-bottom:10px;}
+	
+	.headerFind h1 { font-size:18px}
+	
+	.searchLocationBox .menu-serach ul li a{ padding:0 3px; font-size:12px}
+	
+	.topSoc a { width:32px; height:32px; line-height: 32px; border-radius:16px;}
+	
+	.topSoc a span { font-size:18px;}
+}
+
+@media screen and (max-width: 360px) {
+	
+}

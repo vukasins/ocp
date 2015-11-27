@@ -1,0 +1,99 @@
+body, p ,ul, ol, span, font, table {
+	font: 10pt Tahoma, Arial, Helvetica, sans-serif;
+}
+h1 a, h2 a, h3 a, h4 a {
+	text-decoration: none
+} 
+h1 {
+	font-size: 18pt;
+}
+h2 {
+	font-size: 14pt;
+}
+a {
+	color: #59739B;
+}
+a img {
+	border: none;
+}
+p img {
+	float: left;
+	margin: 1em 1em 1em 0;
+}
+ul, ol, dl {
+	clear: left;
+}
+.block {
+	clear: both;
+	overflow: hidden;
+}
+form {
+	display: none;
+}
+.datum {
+	font-style: italic;
+	color: #aaa;
+}
+table {
+	width: 700px;
+	border-collapse: collapse;
+	font-size: inherit;
+	/* table-layout: fixed; */
+	margin: 1em 0;
+}
+table p {
+	margin: 0;
+}
+table img {
+	float: left;
+	margin: 0 1em;
+	padding: 0;
+}
+th, td {
+	vertical-align: top;
+	text-align: left;
+	padding: 1px 3px;
+}
+.td_header_row {
+	font-weight: bold;
+}
+#footer {
+	border-top: 1px solid;
+	font-style: italic;
+	font-size: smaller;
+	text-align: right;
+	color: gray;
+	clear: both;
+}
+
+
+
+/* DISPLAY: NONE */
+#nav, #additionalMenu, #choseLanguage, .forma, #banners, .subNav, #footer ul, #miniNav, #searchBox, .additionalNav {
+	display: none;
+}
+
+/* CLEARER */
+#header, #left, #right, #footer {
+	clear: left;
+	margin-bottom: 1em;
+}
+
+
+/* This is the print stylesheet to hide the Flash headlines from the browser... regular browser text headlines will now print as normal */
+
+.sIFR-flash, .sIFR-flash object, .sIFR-flash embed {
+	display: none !important;
+	height: 0;
+	width: 0;
+	position: absolute;
+	overflow: hidden;
+}
+
+span.sIFR-alternate {
+	visibility: visible !important;
+	display: block !important;
+	position: static !important;
+	left: auto !important;
+	top: auto !important;
+}

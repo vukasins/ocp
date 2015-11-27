@@ -1,0 +1,16 @@
+[
+    {
+        "group": "CRUD",
+        "title": "Map objects",
+        "action": "/crud/objects/maplist",
+        "level": "administrator"
+    },
+    {
+        "group": "CRUD",
+        "title": "Modify data",
+        "class": "fa-user",
+        "action": "/crud/index",
+        "level": "administrator"
+    }
+    
+]

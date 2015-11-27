@@ -1,0 +1,1 @@
+<textarea id="<?=$field->field_name?>" class="form-control textarea" name="<?=$field->field_name?>" tabindex="<?=$index?>"><?=$value?></textarea>

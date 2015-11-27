@@ -1,0 +1,17 @@
+[
+    {
+        "group": "Dashboard",
+        "title": "Dashboard",
+        "class": "fa-dashboard",
+        "action": "/admin/index",
+        "params": [
+            {
+                "test": true
+            },
+            {
+                "proba": "radi"
+            }
+        ],
+        "level": "administrator"
+    }
+]

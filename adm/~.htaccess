@@ -1,0 +1,24 @@
+#RewriteEngine On
+#RewriteBase /
+
+#<Files .*>
+#	Order Deny,Allow
+#	Deny From All
+#</Files>
+
+# Allow any files or directories that exist to be displayed directly
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite all other URLs to index.php/URL
+#RewriteRule ^(.*)$ /adm/index.php?/$1 [L]
+#RewriteRule ^(([^/]*)/){0,5}([0-9]+).html /adm/index.php/$3 [L,QSA]
+#RewriteRule ^.*$ /adm/index.php/$0 [PT]	
+ 
+#RewriteRule ^(.*)$ /adm/index.php/?$1 [L] 
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /adm/index.php?/$1 [L]
